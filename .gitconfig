@@ -4,6 +4,10 @@
 	required = true
 [user]
 	name = d-soni
-	email = [not going to show you my email, sowwy]
+	email = devinsoni1010@gmail.com
 [core]
 	editor = nano --wait
+[credential]
+	helper = osxkeychain
+[color]
+	ui = true

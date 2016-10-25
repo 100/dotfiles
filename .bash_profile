@@ -15,3 +15,8 @@ GIT_PS1_STATESEPARATOR=" "
 #change the spaces around the (%s) to add/remove spaces around prompt
 PS1=" \[\e[36m\]\W\[\e[m\]\[\e[35m\]\$(__git_ps1 \" (%s)\" )\[\e[m\] \[\e[31m\]➜\[\e[m\] "
 
+PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+
+alias ls='ls --color -XF'
+LS_COLORS=$LS_COLORS:'di=0;36:' ; export LS_COLORS

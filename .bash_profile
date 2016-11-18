@@ -20,3 +20,5 @@ MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
 alias ls='ls --color -XF'
 LS_COLORS=$LS_COLORS:'di=0;36:' ; export LS_COLORS
+
+alias rm='trash'
